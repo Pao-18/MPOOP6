@@ -12,16 +12,23 @@ public class Coche {
    private String color;
    private String marca;
    private String placa;
-   
+   /**
+   *Constructor vacio 
+   */
     public Coche(){
     }
-
+   /**
+   *
+   *@param color colo del coche 
+   *@param marca marca del coche
+   *@param placa placa vehicular 
+   */
     public Coche(String color, String marca, String placa) {
         this.color = color;
         this.marca = marca;
         this.placa = placa;
     }
-
+   
     public String getColor() {
         return color;
     }
